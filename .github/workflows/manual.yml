@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: say hello 
-      - run: echo "this workflow run manually" 
+       run: echo "this workflow run manually" 
