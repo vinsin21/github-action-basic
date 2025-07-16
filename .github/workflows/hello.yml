@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print name
-        run: echo "My name is vineet"
+        run: echo "My name is vineet" 
 
       - name: Print date
         run: date
