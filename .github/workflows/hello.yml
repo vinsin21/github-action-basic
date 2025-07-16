@@ -6,5 +6,9 @@ jobs:
   say_hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Print message
-        run: echo "👋 Hello! GitHub Actions is working!"
+      - name: Print name
+        run: echo "My name is vineet"
+
+      - name: Print date
+        run: date
+
