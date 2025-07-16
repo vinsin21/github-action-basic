@@ -20,3 +20,10 @@ jobs:
     steps:
       - name: Greeting step 
         run: echo "Helloe from second job"        
+  
+  godbye:
+    runs-on: ubuntu-latest
+    needs: greet
+    steps:
+      - name: Goodbye step
+        run: echo "Goodbye from third job"
